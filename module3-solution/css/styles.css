@@ -1,0 +1,123 @@
+*{
+	box-sizing: border-box;
+}
+header{
+	margin-bottom: 30px;
+}
+.fixed-top{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: transparent;
+}
+#navbarSpan{
+	color: black
+}
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+@media(min-width: 768px){
+#navbarT{
+	background-color: pink;
+}
+#navbarF{
+	background-color: transparent;
+}
+header{
+	margin-bottom: 0px
+}
+#menu-tile{
+	margin-top: 0;
+}
+}
+
+#nav-list, #nav-list2{
+  margin-top: 10px;
+}
+#nav-list a,#nav-list2 a {
+  color: black;
+  text-align: center;
+  font-size: 1.8em;
+}
+#nav-list a:hover, #nav-list2 a:hover {
+  background:pink;
+}
+
+ .navbar-brand p span {
+ 	font-size: 35px;
+ 	position: relative;
+ 	display: block;
+ }
+ 
+ div.row div{
+ 	background-color: #adadad;
+ 	margin: 10px;
+ 	width: 100%;
+ 	display: block;
+ }
+  div.row div h3 {
+  	text-align: center;
+  }
+   div.row div p{
+   	padding: 10px;
+   	padding-top : 5px;
+   }
+   #navbar-header-top{
+		background-color: pink;
+	}
+
+@media (max-width: 767px){
+	header{
+		margin-bottom: 100px;
+	}
+	.navbar-header button:visited{
+		background-color: pink;
+	}
+
+	.navbar-header button.navbar-toggle {
+	position: relative;
+	border: 1px solid black;
+	float: right;
+	margin-bottom: 8px;
+	margin-right: 15px;
+	background-color: transparent;
+	border-radius: 4px;
+}
+	.navbar-header button.navbar-toggle span{
+		padding: 2px;
+	}
+	
+	#navbar-header-top{
+		background-color: pink;
+	}
+	.navbar-brand p span {
+		position: relative;
+		display: block;
+	}
+
+  	#main-content{
+	margin-right:40px
+}
+div.row div {
+	margin: 20px;
+	width: 100%
+}
+
+ li{
+ 	text-align: center;
+ 	position: relative;
+ 	background-color: transparent;
+ }
+}
+.jumbotron{background-color: white}
+#menu-tile{
+	display: block!important;
+	
+}
