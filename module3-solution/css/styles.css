@@ -116,7 +116,8 @@ div.row div {
  	background-color: transparent;
  }
 }
-.jumbotron{background-color: white}
+.jumbotron{background-color: white;
+padding: 20px;}
 #menu-tile{
 	display: block!important;
 	
