@@ -4,18 +4,6 @@
 header{
 	margin-bottom: 30px;
 }
-.fixed-top{
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-  background-color: transparent;
-}
-#navbarSpan{
-	color: black
-}
-
 
 body{
 	margin: 0;
@@ -24,12 +12,10 @@ body{
 
 
 @media(min-width: 768px){
-#navbarT{
+#navbar{
 	background-color: pink;
 }
-#navbarF{
-	background-color: transparent;
-}
+
 header{
 	margin-bottom: 0px
 }
@@ -38,15 +24,15 @@ header{
 }
 }
 
-#nav-list, #nav-list2{
+#nav-list{
   margin-top: 10px;
 }
-#nav-list a,#nav-list2 a {
+#nav-list a {
   color: black;
   text-align: center;
   font-size: 1.8em;
 }
-#nav-list a:hover, #nav-list2 a:hover {
+#nav-list a:hover{
   background:pink;
 }
 
@@ -75,7 +61,7 @@ header{
 
 @media (max-width: 767px){
 	header{
-		margin-bottom: 100px;
+		margin-bottom: 0px;
 	}
 	.navbar-header button:visited{
 		background-color: pink;
@@ -117,7 +103,7 @@ div.row div {
  }
 }
 .jumbotron{background-color: white;
-padding: 20px;}
+padding: 10px;}
 #menu-tile{
 	display: block!important;
 	
